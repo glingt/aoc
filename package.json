@@ -1,0 +1,13 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/glingt/aoc.git",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.11"
+  }
+}

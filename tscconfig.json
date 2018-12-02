@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "diagnostics": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "public",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "config",
+    "index.android.js",
+    "index.ios.js",
+    "gulpfile.js",
+    "webpack.config.js",
+    "tools"
+  ]
+}
