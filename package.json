@@ -7,7 +7,17 @@
   "dependencies": {
     "fs": "^0.0.1-security"
   },
+  "scripts": {
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "grail": "ts-node ./src/grail/index.ts"
+  },
   "devDependencies": {
-    "@types/node": "^10.12.11"
+    "@types/node": "^10.12.11",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.0"
   }
 }
