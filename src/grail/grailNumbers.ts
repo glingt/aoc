@@ -1,4 +1,4 @@
-export const grailNumbers = [
+export const grailNumbers: Array<[number, number]> = [
   [98, 1],
   [197, 2],
   [74, 2],
